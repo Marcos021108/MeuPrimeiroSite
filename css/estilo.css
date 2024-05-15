@@ -48,36 +48,34 @@ table {
 }
 
 body{
-background-color: rgb(191, 191, 191);
+background-image: url(../img/solo-leveling-sung-jinwoo-2880x1800-14670.jpg);
+background-size: cover;
 }
 
 header{
-    background-color: rgb(77, 139, 195);
     padding: 3%;
 }
 
 .logo{
-    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
 }
 
 nav{
-    background-color: rgb(184, 209, 231);
 }
 
 main{
-    background-color: rgb(146, 208, 80);
+
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: rgb(241, 214, 226);
-
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
 }
 
 footer{
-    background-color: rgb(112, 48, 160);
     padding: 3%;
 }
 .cabecalho{
@@ -85,4 +83,16 @@ footer{
 }
 .rodape{
     padding: 3%;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-size: 1.5em;
+    color: rgb(10, 9, 9);
+    line-height: 3;
+}
+.logo img{
+    width: 35%;
+    
 }
