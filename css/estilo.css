@@ -48,12 +48,11 @@ table {
 }
 
 body{
-background-image: url(../img/solo-leveling-sung-jinwoo-2880x1800-14670.jpg);
-background-size: cover;
-}
-
-header{
-    padding: 3%;
+background-image: url(../img/yazghmace7f91.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+header
+padding: 3%;
 }
 
 .logo{
@@ -64,7 +63,7 @@ nav{
 }
 
 main{
-
+    background-color: rgb(47, 2, 99);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -86,6 +85,7 @@ footer{
 }
 p{
     color: rgb(255, 255, 255);
+    line-height: 1.75;
 }
 h2{
     font-size: 1.5em;
@@ -93,6 +93,26 @@ h2{
     line-height: 3;
 }
 .logo img{
-    width: 35%;
-    
+    max-width: 100%;
+    width: auto;
+}
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+}
+figure img {
+    display: block;
+    margin: 0 auto;    
+    box-shadow: 0px 4px 8px rgba(241, 4, 4, 0.7); /* Adiciona uma sombra */
+    /* height: 300px; /* Ajuste a altura conforme necessário */
+    /* width: auto; */ 
+    max-width: 100%; /* Ajusta a largura máxima da imagem para 100% do contêiner pai */
+    height: auto;
+}
+h2{
+    color: white;
 }
