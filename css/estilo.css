@@ -58,15 +58,14 @@ padding: 3%;
 .logo{
     color: rgb(0, 0, 0);
 }
-
-nav{
-}
-
 main{
-    background-color: rgb(47, 2, 99);
+    background-color: rgba(32, 6, 126, 0.527);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.527);
+    border-width: 5px;
 }
 
 section{
@@ -94,7 +93,7 @@ h2{
 }
 .logo img{
     max-width: 100%;
-    width: auto;
+    height: 80px;
 }
 .caixa-imagem{
     text-align: center;
@@ -104,15 +103,155 @@ figure{
     text-align: center;
     display: inline-block;
 }
-figure img {
+figure img{
     display: block;
     margin: 0 auto;    
     box-shadow: 0px 4px 8px rgba(241, 4, 4, 0.7); /* Adiciona uma sombra */
-    /* height: 300px; /* Ajuste a altura conforme necessário */
-    /* width: auto; */ 
-    max-width: 100%; /* Ajusta a largura máxima da imagem para 100% do contêiner pai */
+   
+    max-width: 100%;
     height: auto;
 }
 h2{
     color: white;
+}
+.oiiii{
+    background-color: #000000;
+}
+.espaço{
+    padding: 3%
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2a078a65;
+    padding: 2%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.rodape{
+    padding: 3%;
+}
+
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
+    
+    nav ul li label {
+        width: 100%;
+        display: block;
+    }
+}
+
+main{
+    margin-top: 70px;
+    padding: 20px;
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    padding: 20px;
+}
+footer{
+    padding: 3%;
+}
+
+
+
+
+h1,h2,p,li,figcaption{
+    color: #fff;
+}
+
+.caixa-imagem {
+    text-align: center;
+    margin-top: 1%;    
 }
