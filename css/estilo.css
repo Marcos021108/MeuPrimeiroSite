@@ -59,7 +59,7 @@ padding: 3%;
     color: rgb(0, 0, 0);
 }
 main{
-    background-color: rgba(32, 6, 126, 0.527);
+    background-color: rgba(100, 66, 223, 0.527);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -106,8 +106,7 @@ figure{
 figure img{
     display: block;
     margin: 0 auto;    
-    box-shadow: 0px 4px 8px rgba(241, 4, 4, 0.7); /* Adiciona uma sombra */
-   
+    box-shadow: 0px 4px 8px rgba(241, 4, 4, 0.7);
     max-width: 100%;
     height: auto;
 }
@@ -125,7 +124,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #2a078a65;
+    background-color: rgba(120, 78, 236, 0.322);
     padding: 2%;
     position: fixed;
     top: 0;
