@@ -1,0 +1,9 @@
+main{
+    background-color: rgba(100, 66, 223, 0.527);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.527);
+    border-width: 5px;
+}
